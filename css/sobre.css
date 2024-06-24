@@ -1,0 +1,86 @@
+.ajuda
+{
+ background-color: #f7d0b8;
+}
+
+
+
+
+
+
+header
+{
+    display: flex;          
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(127, 48, 01, 0.9);
+    border-radius: 5px;
+  
+}
+
+.listanav
+{
+   
+    color: #ff8033;
+    display: flex;
+    justify-content: center;
+    background-image: url(INDAYARA-removebg-preview.png); 
+}
+
+.listanav li
+{
+    font-size: 20px;
+    margin: 1rem;
+}
+
+.adjusted
+{
+    min-width: 1200px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.estrutura1
+{
+    display: flex;
+ 
+}
+
+.texto1 
+{
+  margin: auto;
+  width: 1000px;
+  justify-content: center;
+  border-left: #f26f63 solid 8px;
+  color: #7f3001;
+  background-color: #fff;
+  padding: 8px;
+
+}
+
+.estrutura2
+{
+    display:flex;
+    
+}
+
+
+
+
+.texto2
+{
+    margin: auto;
+    width: 1000px;
+    justify-content: center;
+    border-right: #ff8033 solid 8px;
+    color: #7f3001;
+    background-color: #fff;
+    padding: 8px;
+}
+
+.imagem2 > img{
+    margin-bottom: 100px;
+}
+
+

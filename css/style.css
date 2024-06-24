@@ -1,0 +1,26 @@
+@import url(header.css);
+@import url(sobre.css);
+@import url(historiadastranças.css);
+@import url(depoimentos.css);
+@import url(trabalhos.css);
+@import url(footer2.css);
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul
+{
+    list-style-type: none;
+
+}
+
+a
+{
+    text-decoration: none;
+}

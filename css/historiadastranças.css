@@ -1,0 +1,62 @@
+.historiadastranças
+{
+    width: 450px;
+    margin: auto;
+}
+
+.historia
+{
+    width: 100%;
+    
+}
+
+.bloco1
+{
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
+}
+/*
+.bloco2
+{
+   
+    width: 50%;
+    height: 350px;
+    background-image: url(../imagens/imgtranca2\ \(1\).svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bloco3
+{
+    width: 50%;
+    height: 350px;
+    background-image: url(../imagens/imgtranca2\ \(2\).svg);
+    background-size: cover;
+    background-position: center;
+  
+}
+*/
+.bloco4
+{
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+}
+
+.bloco1Img
+{
+    width: 500px;
+}
+
+.txt1, .txt2
+{
+    color: #e69769;
+    width: 800px;
+}
