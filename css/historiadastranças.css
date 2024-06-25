@@ -18,6 +18,7 @@
     align-items: center;
     text-align: center;
     text-align: justify;
+    flex-wrap: wrap;
 }
 /*
 .bloco2
@@ -48,6 +49,7 @@
     align-items: center;
     text-align: justify;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .bloco1Img
@@ -58,5 +60,17 @@
 .txt1, .txt2
 {
     color: #e69769;
-    width: 800px;
+    max-width: 800px;
+}
+
+@media (max-width: 700px)
+{
+    .bloco1Img
+{
+    width: 100%;
+}
+    .bloco1
+    {
+        flex-direction: column-reverse;
+    }
 }
