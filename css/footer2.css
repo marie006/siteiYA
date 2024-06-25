@@ -21,7 +21,6 @@ footer
   align-items: center;
   width: 100%;
   background: #f26f63;
-  height: 190px;
   flex-direction: column;
 }
 
@@ -129,4 +128,12 @@ footer .wave
 ul
 {
   padding-left: 0!important;
+}
+
+@media(max-width: 700px)
+{
+  footer .wave
+  {
+    position: static;
+  }    
 }
