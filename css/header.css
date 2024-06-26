@@ -89,11 +89,8 @@ a .active, a:hover
 
 @media (max-width: 952px)
 {
-    label .logo{
-    
-    }
-
-    nav #lista li a {
+    nav #lista li a
+     {
         font-size: 16px;
     }
 }
@@ -137,7 +134,7 @@ a .active, a:hover
     
     }
 
-    }
+}
 
 .menuGambiarra
 {
