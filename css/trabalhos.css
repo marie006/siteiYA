@@ -91,7 +91,12 @@
 
 
 
-
+@media (max-width: 760px) {
+    .trabalhos
+    {
+        display: none;
+    }
+}
 
 
 

@@ -1,63 +1,146 @@
-*
+.p1
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+    width: 30px;
+    border: black 1px solid;
+    padding-top: 1px;
+    background-color: #ff8033;
+    margin: 5px;
 }
 
-
-.imagemLogo
+*
 {
-    width: 100px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 .sos
 {
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
+    font-family: "Open Sans", sans-serif;
     background-color: black;
+}
+
+nav
+{
+    background-color: rgba(255, 255, 255, 0.95);
+    height: 80px;
+    width: 100%;
+}
+
+label img .logo
+{
+    padding-right: 100px;
+}
+
+nav #lista
+{
+    float: right;
+    margin-right: 20px;
+}
+
+nav #lista li
+{
+   display: inline-block;
+   line-height: 80px;
+   margin: 0 5px;
+}
+
+nav #lista li a
+{
+    color: #ff8033;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+
+}
+
+a .active, a:hover
+{
+    background: #7f3001;
+    transition: .5s;
+}
+
+.checkbtn
+{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 
 .header
 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-   background-color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    z-index: 100;
-    background-color: rgba(255, 255, 255, 0.95);
 }
 
-.navbar a 
+#check
 {
-    position: relative;
-    font-size: 18px;
-    color: #ff8033;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
+    display: none;
+
 }
 
-.navbar a::before
+@media (max-width: 952px)
 {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #ff8033;
+    label .logo{
+    
+    }
+
+    nav #lista li a {
+        font-size: 16px;
+    }
 }
 
-.navbar a:hover::before
+@media (max-width: 858px)
 {
-  width: 100%;
+    .checkbtn{
+        display: block;
+    }
 
+    #lista{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #7f3001;
+        top: 80px;
+        display: none;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav #lista li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    
+    a:hover, a.active
+    {
+        background: none;
+    }
+
+    #check :checked ~ ul 
+    {
+        left: 0;
+    }
+
+    .menuGambiarra
+    {
+    display: none;
+    
+    }
+
+    }
+
+.menuGambiarra
+{
+    display: none;
+    padding: 20px;
 }
