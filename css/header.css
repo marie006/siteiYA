@@ -87,6 +87,12 @@ a .active, a:hover
 
 }
 
+.menuGambiarra
+{
+    display: none;
+    padding: 20px;
+}
+
 @media (max-width: 952px)
 {
     nav #lista li a
@@ -136,8 +142,3 @@ a .active, a:hover
 
 }
 
-.menuGambiarra
-{
-    display: none;
-    padding: 20px;
-}

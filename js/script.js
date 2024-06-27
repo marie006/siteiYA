@@ -1,17 +1,10 @@
-var a = document.getElementById("botaun")
-var b = document.getElementById("lista")
-var c = document.getElementById("menuGambiarraMalu")
+var ul = document.querySelector('nav ul');
+var menuBtn = document.querySelector('.menu-btn i');
 
-function botao()
-{
-            b.style.display = "block";
-            c.style.display = "block"
-            a.style.display = "none"
+function menuShow() {
+    if (ul.classList.contains('open')) {
+        ul.classList.remove('open');
+    }else{
+        ul.classList.add('open');
+    }
 }
-
-function fechar()
-{{
-    b.style.display = "none"
-    c.style.display = "none"
-    a.style.display = "block"
-}}
