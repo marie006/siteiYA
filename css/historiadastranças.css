@@ -65,6 +65,11 @@
 
 @media (max-width: 700px)
 {
+
+    .txt1, .txt2
+    {
+        padding: 25px;
+    }
     .bloco1Img
 {
     width: 100%;

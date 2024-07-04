@@ -51,6 +51,7 @@ footer .social-icons li a
 footer .social-icons li a:hover
 {
   transform: translateY(-10px);
+  background-color: #f26f63;
 }
 
 footer .menu li a 
@@ -83,6 +84,7 @@ footer .menu2 li
 footer .menu li a:hover
 {
   opacity: 1;
+  background-color: #f26f63;
 }
 
 footer .wave
@@ -131,7 +133,7 @@ ul
   padding-left: 0!important;
 }
 
-@media(max-width: 700px)
+@media(max-width: 760px)
 {
   footer .wave
   {

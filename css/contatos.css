@@ -43,11 +43,12 @@ iframe
 
 .signUp
 {
-    background-color: #F26F63;
-    color: white;
-    width: 70px;
+    background-color: #fff;
+    color: #f26f63;
+    width: 80px;
     height: 30px;
     border-radius: 15px;
+    border: 1px  white ;
 }
 
 .bannerImg
@@ -67,4 +68,8 @@ input
     {
         margin: 0;
     }
+}
+
+.oi{
+    text-decoration: none;
 }

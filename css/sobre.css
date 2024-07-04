@@ -89,8 +89,16 @@ header
 
 @media (max-width: 760px)
 {
+    .p
+    {
+        padding: 25px;
+    }
     .estrutura2
     {
         flex-direction: column-reverse;
     }
+}
+
+.xiu{
+    text-decoration: none;
 }
