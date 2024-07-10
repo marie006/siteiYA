@@ -56,13 +56,13 @@ nav #lista li a
     text-transform: uppercase;
 
 }
-
+/*
 a .active, a:hover
 {
     background: #7f3001;
     transition: .5s;
 }
-
+*/
 .checkbtn
 {
     font-size: 30px;

@@ -84,7 +84,7 @@ footer .menu2 li
 footer .menu li a:hover
 {
   opacity: 1;
-  background-color: #f26f63;
+  background-color: #f26f63!important;
 }
 
 footer .wave
